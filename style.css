@@ -1,0 +1,62 @@
+*{
+    font-family: "Red Hat Display";
+}
+body{
+    text-align: center;
+    background-color: #26596A;
+}
+
+.container{
+    padding:20px;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 600px;
+    width: 50%;
+    overflow: scroll;
+    background: #6C929F;
+}
+
+hr{
+    color:black;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.citationForImage{
+    font-size: 9px;
+    text-align: left;
+}
+
+.image-and-description{
+    display: flex;
+    flex-direction: row;
+}
+
+.description{
+    padding: 10px;
+}
+
+footer{
+    font-size: 12px;
+}
+
+footer:h3{
+    font-size: 30px;
+}
+
+.imgOfFood{
+    width:30%;
+    transition: 1s;
+}
+
+.imgOfFood:hover{
+    transition: 1s;
+    width: 75%;
+    cursor:pointer;
+}
+
+.food-link{
+    color: black;
+    font-style: italic;
+}
